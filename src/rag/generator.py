@@ -57,10 +57,21 @@ def parse_json(raw: str) -> dict:
     if not isinstance(data, dict) or "respuesta" not in data:
         data = {"respuesta": raw or "No se pudo interpretar la respuesta del modelo.",
                 "pasos": [], "fuente": "ninguna", "confianza": "baja", "en_corpus": False}
-    data.setdefault("pasos", [])
-    data.setdefault("fuente", "ninguna")
-    data.setdefault("confianza", "baja")
     data.setdefault("en_corpus", True)
+    data.setdefault("fuente", None)      # None = el modelo no lo devolvió; el pipeline lo completa
+    data.setdefault("confianza", None)
+    # Limpieza: modelos pequeños a veces meten fuente/confianza/en_corpus dentro de "pasos"
+    pasos = data.get("pasos") or []
+    if isinstance(pasos, str):
+        pasos = [pasos]
+    clean = []
+    for p in pasos:
+        if isinstance(p, dict):
+            continue
+        t = str(p).strip()
+        if t and not re.match(r"^(fuente|confianza|en_corpus)\b\s*[:=]?", t, flags=re.I):
+            clean.append(t)
+    data["pasos"] = clean
     return data
 
 
