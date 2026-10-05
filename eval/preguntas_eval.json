@@ -1,0 +1,128 @@
+[
+  {
+    "id": "q01",
+    "tipo": "en_corpus",
+    "pregunta": "¿Cuál es la velocidad de impresión de la impresora X200?",
+    "ground_truth": "La X200 imprime a 28 páginas por minuto en negro, en tamaño A4.",
+    "fuente_esperada": "manual_impresora_x200.txt"
+  },
+  {
+    "id": "q02",
+    "tipo": "en_corpus",
+    "pregunta": "¿Qué modelo de tóner usa la impresora y cuántas páginas rinde?",
+    "ground_truth": "Usa el cartucho de tóner modelo TX-200, que rinde 3000 páginas.",
+    "fuente_esperada": "manual_impresora_x200.txt"
+  },
+  {
+    "id": "q03",
+    "tipo": "en_corpus",
+    "pregunta": "¿Cómo conecto la impresora al WiFi usando WPS?",
+    "ground_truth": "Mantener presionado el botón WiFi del panel 3 segundos hasta que el LED azul parpadee y, antes de 2 minutos, presionar el botón WPS del router. Con el LED azul fijo la impresora queda conectada.",
+    "fuente_esperada": "manual_impresora_x200.txt"
+  },
+  {
+    "id": "q04",
+    "tipo": "en_corpus",
+    "pregunta": "¿La impresora funciona con redes WiFi de 5 GHz?",
+    "ground_truth": "No. El WiFi de la impresora solo funciona en la banda de 2.4 GHz.",
+    "fuente_esperada": "manual_impresora_x200.txt"
+  },
+  {
+    "id": "q05",
+    "tipo": "en_corpus",
+    "pregunta": "¿Qué significa el error E04 en la impresora?",
+    "ground_truth": "El código E04 indica un atasco de papel.",
+    "fuente_esperada": "manual_impresora_x200.txt"
+  },
+  {
+    "id": "q06",
+    "tipo": "en_corpus",
+    "pregunta": "¿Cómo soluciono un atasco de papel?",
+    "ground_truth": "Abrir la tapa trasera y jalar el papel lentamente en la dirección de salida, sin usar objetos metálicos; el fusor puede estar caliente, así que esperar 10 minutos antes de manipularlo.",
+    "fuente_esperada": "manual_impresora_x200.txt"
+  },
+  {
+    "id": "q07",
+    "tipo": "en_corpus",
+    "pregunta": "¿Qué hago si la impresora no enciende?",
+    "ground_truth": "Verificar que el cable de alimentación esté bien conectado a una toma con corriente; si persiste, revisar el fusible interno F1 de 3.15 A bajo la tapa de servicio trasera y, si continúa, contactar a soporte técnico.",
+    "fuente_esperada": "manual_impresora_x200.txt"
+  },
+  {
+    "id": "q08",
+    "tipo": "en_corpus",
+    "pregunta": "¿Cada cuántas páginas hay que reemplazar el tambor?",
+    "ground_truth": "El tambor DR-200 debe reemplazarse cada 12000 páginas, cuando aparece el mensaje 'Cambiar tambor'.",
+    "fuente_esperada": "manual_impresora_x200.txt"
+  },
+  {
+    "id": "q09",
+    "tipo": "en_corpus",
+    "pregunta": "¿Cómo restauro la impresora a valores de fábrica?",
+    "ground_truth": "Ir a Menú > Sistema > Restaurar valores, o mantener presionados Cancelar y OK durante 10 segundos al encender. Esto borra la configuración de red.",
+    "fuente_esperada": "manual_impresora_x200.txt"
+  },
+  {
+    "id": "q10",
+    "tipo": "en_corpus",
+    "pregunta": "¿Qué debo hacer ante el error E12 de la impresora?",
+    "ground_truth": "El E12 es un error del fusor: apagar la impresora 15 minutos y volver a encenderla; si persiste, contactar a servicio técnico.",
+    "fuente_esperada": "manual_impresora_x200.txt"
+  },
+  {
+    "id": "q11",
+    "tipo": "en_corpus",
+    "pregunta": "¿Cuál es la IP de administración del router y sus credenciales por defecto?",
+    "ground_truth": "La IP es 192.168.1.1, el usuario es admin y la contraseña está impresa en la etiqueta inferior del equipo.",
+    "fuente_esperada": "manual_router_nd1800.txt"
+  },
+  {
+    "id": "q12",
+    "tipo": "en_corpus",
+    "pregunta": "¿Cómo restablezco el router a valores de fábrica?",
+    "ground_truth": "Con el equipo encendido, mantener presionado el botón reset 10 segundos hasta que el LED Power parpadee.",
+    "fuente_esperada": "manual_router_nd1800.txt"
+  },
+  {
+    "id": "q13",
+    "tipo": "en_corpus",
+    "pregunta": "¿Qué significa que el LED de Internet del router esté en rojo?",
+    "ground_truth": "Significa que no hay conexión WAN: el router no recibe internet del módem.",
+    "fuente_esperada": "manual_router_nd1800.txt"
+  },
+  {
+    "id": "q14",
+    "tipo": "en_corpus",
+    "pregunta": "¿Qué canales WiFi se recomiendan para reducir la interferencia en 2.4 GHz?",
+    "ground_truth": "Se recomiendan los canales 1, 6 y 11.",
+    "fuente_esperada": "manual_router_nd1800.txt"
+  },
+  {
+    "id": "q15",
+    "tipo": "fuera_de_corpus",
+    "pregunta": "¿Cuánto cuesta un cartucho de tóner TX-200?",
+    "ground_truth": "La información no está disponible en los manuales.",
+    "fuente_esperada": ""
+  },
+  {
+    "id": "q16",
+    "tipo": "fuera_de_corpus",
+    "pregunta": "¿La impresora X200 es compatible con AirPrint de Apple?",
+    "ground_truth": "La información no está disponible en los manuales.",
+    "fuente_esperada": ""
+  },
+  {
+    "id": "q17",
+    "tipo": "fuera_de_corpus",
+    "pregunta": "¿Cuántos años tengo?",
+    "ground_truth": "La información no está disponible en los manuales.",
+    "fuente_esperada": ""
+  },
+  {
+    "id": "q18",
+    "tipo": "fuera_de_corpus",
+    "pregunta": "¿Cómo configuro una VPN en el router?",
+    "ground_truth": "La información no está disponible en los manuales.",
+    "fuente_esperada": ""
+  }
+]

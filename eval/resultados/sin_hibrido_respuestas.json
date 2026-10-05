@@ -1,0 +1,287 @@
+[
+  {
+    "id": "q01",
+    "tipo": "en_corpus",
+    "user_input": "¿Cuál es la velocidad de impresión de la impresora X200?",
+    "retrieved_contexts": [
+      "Velocidad de impresión: 28 páginas por minuto (ppm) en negro, tamaño A4.\nResolución máxima: 1200 x 1200 dpi. Memoria: 256 MB.\nBandeja de entrada: 250 hojas. Bandeja manual: 1 hoja.\nAlimentación eléctrica: 110-127 V, 60 Hz.\nConectividad: USB 2.0, Ethernet 10/100 y WiFi 802.11 b/g/n. El WiFi funciona únicamente en la banda de 2.4 GHz; las redes de 5 GHz no son compatibles.\nConsumibles: cartucho de tóner modelo TX-200 con rendimiento de 3000 páginas y tambor modelo DR-200 con rendimiento de 12000 páginas.",
+      "Retire todas las cintas de embalaje del equipo. Instale el cartucho de tóner TX-200 y cargue papel en la bandeja de entrada.\nConecte el cable de alimentación a una toma con corriente y pulse el botón de encendido del panel frontal.\nEspere 45 segundos mientras la impresora se calienta antes de imprimir la primera página.",
+      "Verifique que el cable de alimentación esté bien conectado a una toma con corriente. Si continúa sin encender, revise el fusible interno F1 (3.15 A), accesible bajo la tapa de servicio en la parte posterior. Si persiste, contacte a soporte técnico.",
+      "Un atasco se indica con el LED rojo parpadeante y el código E04. Abra la tapa trasera y jale el papel lentamente en la dirección de salida. No use objetos metálicos. El fusor puede estar caliente: espere 10 minutos antes de manipularlo."
+    ],
+    "retrieved_sources": [
+      "manual_impresora_x200.txt#001",
+      "manual_impresora_x200.txt#002",
+      "manual_impresora_x200.txt#008",
+      "manual_impresora_x200.txt#009"
+    ],
+    "response": "La velocidad de impresión de la impresora X200 es 28 páginas por minuto (ppm) en negro, tamaño A4.",
+    "reference": "La X200 imprime a 28 páginas por minuto en negro, en tamaño A4."
+  },
+  {
+    "id": "q02",
+    "tipo": "en_corpus",
+    "user_input": "¿Qué modelo de tóner usa la impresora y cuántas páginas rinde?",
+    "retrieved_contexts": [
+      "Velocidad de impresión: 28 páginas por minuto (ppm) en negro, tamaño A4.\nResolución máxima: 1200 x 1200 dpi. Memoria: 256 MB.\nBandeja de entrada: 250 hojas. Bandeja manual: 1 hoja.\nAlimentación eléctrica: 110-127 V, 60 Hz.\nConectividad: USB 2.0, Ethernet 10/100 y WiFi 802.11 b/g/n. El WiFi funciona únicamente en la banda de 2.4 GHz; las redes de 5 GHz no son compatibles.\nConsumibles: cartucho de tóner modelo TX-200 con rendimiento de 3000 páginas y tambor modelo DR-200 con rendimiento de 12000 páginas.",
+      "Retire todas las cintas de embalaje del equipo. Instale el cartucho de tóner TX-200 y cargue papel en la bandeja de entrada.\nConecte el cable de alimentación a una toma con corriente y pulse el botón de encendido del panel frontal.\nEspere 45 segundos mientras la impresora se calienta antes de imprimir la primera página.",
+      "Un atasco se indica con el LED rojo parpadeante y el código E04. Abra la tapa trasera y jale el papel lentamente en la dirección de salida. No use objetos metálicos. El fusor puede estar caliente: espere 10 minutos antes de manipularlo.",
+      "Imprima la página de limpieza desde Menú > Mantenimiento > Limpiar tambor. Si las rayas continúan, limpie el rodillo de transferencia con un paño seco; si aún persisten, reemplace el tambor DR-200."
+    ],
+    "retrieved_sources": [
+      "manual_impresora_x200.txt#001",
+      "manual_impresora_x200.txt#002",
+      "manual_impresora_x200.txt#009",
+      "manual_impresora_x200.txt#010"
+    ],
+    "response": "El modelo de tóner es TX-200 y tiene un rendimiento de 3000 páginas.",
+    "reference": "Usa el cartucho de tóner modelo TX-200, que rinde 3000 páginas."
+  },
+  {
+    "id": "q03",
+    "tipo": "en_corpus",
+    "user_input": "¿Cómo conecto la impresora al WiFi usando WPS?",
+    "retrieved_contexts": [
+      "Confirme que la red sea de 2.4 GHz y que el computador esté conectado a la misma red que la impresora. Imprima el informe de red para verificar la dirección IP y reinicie la impresora y el router.",
+      "Mantenga presionado el botón WiFi del panel durante 3 segundos hasta que el LED azul parpadee. Antes de que transcurran 2 minutos, presione el botón WPS del router. Cuando el LED azul quede fijo, la impresora está conectada.",
+      "Velocidad de impresión: 28 páginas por minuto (ppm) en negro, tamaño A4.\nResolución máxima: 1200 x 1200 dpi. Memoria: 256 MB.\nBandeja de entrada: 250 hojas. Bandeja manual: 1 hoja.\nAlimentación eléctrica: 110-127 V, 60 Hz.\nConectividad: USB 2.0, Ethernet 10/100 y WiFi 802.11 b/g/n. El WiFi funciona únicamente en la banda de 2.4 GHz; las redes de 5 GHz no son compatibles.\nConsumibles: cartucho de tóner modelo TX-200 con rendimiento de 3000 páginas y tambor modelo DR-200 con rendimiento de 12000 páginas.",
+      "Verifique que el cable de alimentación esté bien conectado a una toma con corriente. Si continúa sin encender, revise el fusible interno F1 (3.15 A), accesible bajo la tapa de servicio en la parte posterior. Si persiste, contacte a soporte técnico."
+    ],
+    "retrieved_sources": [
+      "manual_impresora_x200.txt#012",
+      "manual_impresora_x200.txt#003",
+      "manual_impresora_x200.txt#001",
+      "manual_impresora_x200.txt#008"
+    ],
+    "response": "Para conectar la impresora al WiFi mediante WPS, siga el procedimiento indicado en el manual. 1. Mantener presionado el botón WiFi del panel de la impresora durante 3 segundos hasta que el LED azul parpadee 2. Dentro de los siguientes 2 minutos, presionar el botón WPS del router 3. Esperar a que el LED azul de la impresora quede fijo, indicando que la conexión se ha establecido",
+    "reference": "Mantener presionado el botón WiFi del panel 3 segundos hasta que el LED azul parpadee y, antes de 2 minutos, presionar el botón WPS del router. Con el LED azul fijo la impresora queda conectada."
+  },
+  {
+    "id": "q04",
+    "tipo": "en_corpus",
+    "user_input": "¿La impresora funciona con redes WiFi de 5 GHz?",
+    "retrieved_contexts": [
+      "Confirme que la red sea de 2.4 GHz y que el computador esté conectado a la misma red que la impresora. Imprima el informe de red para verificar la dirección IP y reinicie la impresora y el router.",
+      "Velocidad de impresión: 28 páginas por minuto (ppm) en negro, tamaño A4.\nResolución máxima: 1200 x 1200 dpi. Memoria: 256 MB.\nBandeja de entrada: 250 hojas. Bandeja manual: 1 hoja.\nAlimentación eléctrica: 110-127 V, 60 Hz.\nConectividad: USB 2.0, Ethernet 10/100 y WiFi 802.11 b/g/n. El WiFi funciona únicamente en la banda de 2.4 GHz; las redes de 5 GHz no son compatibles.\nConsumibles: cartucho de tóner modelo TX-200 con rendimiento de 3000 páginas y tambor modelo DR-200 con rendimiento de 12000 páginas.",
+      "Verifique que el cable de alimentación esté bien conectado a una toma con corriente. Si continúa sin encender, revise el fusible interno F1 (3.15 A), accesible bajo la tapa de servicio en la parte posterior. Si persiste, contacte a soporte técnico.",
+      "Doble banda: 2.4 GHz y 5 GHz (WiFi 6). Puertos: 4 LAN Gigabit y 1 WAN.\nDirección IP de administración: 192.168.1.1.\nCredenciales por defecto: usuario \"admin\"; la contraseña está impresa en la etiqueta inferior del equipo."
+    ],
+    "retrieved_sources": [
+      "manual_impresora_x200.txt#012",
+      "manual_impresora_x200.txt#001",
+      "manual_impresora_x200.txt#008",
+      "manual_router_nd1800.txt#001"
+    ],
+    "response": "No, la impresora solo funciona con redes WiFi de 2.4 GHz; las redes de 5 GHz no son compatibles.",
+    "reference": "No. El WiFi de la impresora solo funciona en la banda de 2.4 GHz."
+  },
+  {
+    "id": "q05",
+    "tipo": "en_corpus",
+    "user_input": "¿Qué significa el error E04 en la impresora?",
+    "retrieved_contexts": [
+      "E01: tapa abierta. Cierre todas las tapas.\nE02: sin papel en la bandeja de entrada.\nE04: atasco de papel. Consulte la sección 5.2.\nE07: tóner no reconocido. Reinstale el cartucho y verifique que sea el modelo TX-200.\nE12: error del fusor. Apague la impresora durante 15 minutos y vuelva a encenderla; si el error persiste, contacte a servicio técnico.\nE21: error de memoria. Apague y encienda el equipo.",
+      "Verifique que el cable de alimentación esté bien conectado a una toma con corriente. Si continúa sin encender, revise el fusible interno F1 (3.15 A), accesible bajo la tapa de servicio en la parte posterior. Si persiste, contacte a soporte técnico.",
+      "Confirme que la red sea de 2.4 GHz y que el computador esté conectado a la misma red que la impresora. Imprima el informe de red para verificar la dirección IP y reinicie la impresora y el router.",
+      "Retire todas las cintas de embalaje del equipo. Instale el cartucho de tóner TX-200 y cargue papel en la bandeja de entrada.\nConecte el cable de alimentación a una toma con corriente y pulse el botón de encendido del panel frontal.\nEspere 45 segundos mientras la impresora se calienta antes de imprimir la primera página."
+    ],
+    "retrieved_sources": [
+      "manual_impresora_x200.txt#013",
+      "manual_impresora_x200.txt#008",
+      "manual_impresora_x200.txt#012",
+      "manual_impresora_x200.txt#002"
+    ],
+    "response": "El error E04 indica un atasco de papel. Consulte la sección 5.2 del manual para resolverlo. 1. Consultar la sección 5.2 del manual para seguir el procedimiento de eliminación del atasco de papel",
+    "reference": "El código E04 indica un atasco de papel."
+  },
+  {
+    "id": "q06",
+    "tipo": "en_corpus",
+    "user_input": "¿Cómo soluciono un atasco de papel?",
+    "retrieved_contexts": [
+      "Un atasco se indica con el LED rojo parpadeante y el código E04. Abra la tapa trasera y jale el papel lentamente en la dirección de salida. No use objetos metálicos. El fusor puede estar caliente: espere 10 minutos antes de manipularlo.",
+      "Retire todas las cintas de embalaje del equipo. Instale el cartucho de tóner TX-200 y cargue papel en la bandeja de entrada.\nConecte el cable de alimentación a una toma con corriente y pulse el botón de encendido del panel frontal.\nEspere 45 segundos mientras la impresora se calienta antes de imprimir la primera página.",
+      "E01: tapa abierta. Cierre todas las tapas.\nE02: sin papel en la bandeja de entrada.\nE04: atasco de papel. Consulte la sección 5.2.\nE07: tóner no reconocido. Reinstale el cartucho y verifique que sea el modelo TX-200.\nE12: error del fusor. Apague la impresora durante 15 minutos y vuelva a encenderla; si el error persiste, contacte a servicio técnico.\nE21: error de memoria. Apague y encienda el equipo.",
+      "Imprima la página de limpieza desde Menú > Mantenimiento > Limpiar tambor. Si las rayas continúan, limpie el rodillo de transferencia con un paño seco; si aún persisten, reemplace el tambor DR-200."
+    ],
+    "retrieved_sources": [
+      "manual_impresora_x200.txt#009",
+      "manual_impresora_x200.txt#002",
+      "manual_impresora_x200.txt#013",
+      "manual_impresora_x200.txt#010"
+    ],
+    "response": "Para resolver un atasco de papel (código E04) siga los pasos indicados en el manual: abra la tapa trasera, retire el papel con cuidado y evite usar objetos metálicos. Si el fusor está caliente, espere 10 min antes de manipularlo y luego cierre la tapa. 1. Verifique que el LED rojo parpadee y el código de error sea E04 2. Abra la tapa trasera de la impresora 3. Si el fusor está caliente, espere 10 minutos antes de tocarlo 4. Jale el papel lentamente en la dirección de salida, sin usar objetos metálicos 5. Cierre la tapa trasera y confirme que el error desaparezca",
+    "reference": "Abrir la tapa trasera y jalar el papel lentamente en la dirección de salida, sin usar objetos metálicos; el fusor puede estar caliente, así que esperar 10 minutos antes de manipularlo."
+  },
+  {
+    "id": "q07",
+    "tipo": "en_corpus",
+    "user_input": "¿Qué hago si la impresora no enciende?",
+    "retrieved_contexts": [
+      "Retire todas las cintas de embalaje del equipo. Instale el cartucho de tóner TX-200 y cargue papel en la bandeja de entrada.\nConecte el cable de alimentación a una toma con corriente y pulse el botón de encendido del panel frontal.\nEspere 45 segundos mientras la impresora se calienta antes de imprimir la primera página.",
+      "Verifique que el cable de alimentación esté bien conectado a una toma con corriente. Si continúa sin encender, revise el fusible interno F1 (3.15 A), accesible bajo la tapa de servicio en la parte posterior. Si persiste, contacte a soporte técnico.",
+      "E01: tapa abierta. Cierre todas las tapas.\nE02: sin papel en la bandeja de entrada.\nE04: atasco de papel. Consulte la sección 5.2.\nE07: tóner no reconocido. Reinstale el cartucho y verifique que sea el modelo TX-200.\nE12: error del fusor. Apague la impresora durante 15 minutos y vuelva a encenderla; si el error persiste, contacte a servicio técnico.\nE21: error de memoria. Apague y encienda el equipo.",
+      "Un atasco se indica con el LED rojo parpadeante y el código E04. Abra la tapa trasera y jale el papel lentamente en la dirección de salida. No use objetos metálicos. El fusor puede estar caliente: espere 10 minutos antes de manipularlo."
+    ],
+    "retrieved_sources": [
+      "manual_impresora_x200.txt#002",
+      "manual_impresora_x200.txt#008",
+      "manual_impresora_x200.txt#013",
+      "manual_impresora_x200.txt#009"
+    ],
+    "response": "Verifique que el cable de alimentación esté bien conectado a una toma con corriente; si la impresora sigue sin encender, revise el fusible interno F1 (3.15 A) bajo la tapa de servicio en la parte posterior; si el problema persiste, contacte al soporte técnico. 1. Comprobar la conexión del cable de alimentación a una toma con corriente 2. Si no enciende, inspeccionar y, de ser necesario, reemplazar el fusible interno F1 (3.15 A) bajo la tapa de servicio 3. Si el problema continúa, contactar al soporte técnico",
+    "reference": "Verificar que el cable de alimentación esté bien conectado a una toma con corriente; si persiste, revisar el fusible interno F1 de 3.15 A bajo la tapa de servicio trasera y, si continúa, contactar a soporte técnico."
+  },
+  {
+    "id": "q08",
+    "tipo": "en_corpus",
+    "user_input": "¿Cada cuántas páginas hay que reemplazar el tambor?",
+    "retrieved_contexts": [
+      "El tambor DR-200 debe reemplazarse cada 12000 páginas, cuando aparezca el mensaje \"Cambiar tambor\". No exponga el tambor a la luz directa más de 2 minutos.",
+      "Imprima la página de limpieza desde Menú > Mantenimiento > Limpiar tambor. Si las rayas continúan, limpie el rodillo de transferencia con un paño seco; si aún persisten, reemplace el tambor DR-200.",
+      "Retire el cartucho y agítelo suavemente para redistribuir el tóner. Verifique que el modo Ahorro de tóner esté desactivado en Menú > Calidad. Si el problema continúa, reemplace el cartucho TX-200.",
+      "Velocidad de impresión: 28 páginas por minuto (ppm) en negro, tamaño A4.\nResolución máxima: 1200 x 1200 dpi. Memoria: 256 MB.\nBandeja de entrada: 250 hojas. Bandeja manual: 1 hoja.\nAlimentación eléctrica: 110-127 V, 60 Hz.\nConectividad: USB 2.0, Ethernet 10/100 y WiFi 802.11 b/g/n. El WiFi funciona únicamente en la banda de 2.4 GHz; las redes de 5 GHz no son compatibles.\nConsumibles: cartucho de tóner modelo TX-200 con rendimiento de 3000 páginas y tambor modelo DR-200 con rendimiento de 12000 páginas."
+    ],
+    "retrieved_sources": [
+      "manual_impresora_x200.txt#007",
+      "manual_impresora_x200.txt#010",
+      "manual_impresora_x200.txt#011",
+      "manual_impresora_x200.txt#001"
+    ],
+    "response": "El tambor DR-200 debe reemplazarse cada 12 000 páginas, normalmente cuando aparece el mensaje “Cambiar tambor”. 1. Observar el mensaje “Cambiar tambor” en la pantalla 2. Reemplazar el tambor DR-200 por uno nuevo",
+    "reference": "El tambor DR-200 debe reemplazarse cada 12000 páginas, cuando aparece el mensaje 'Cambiar tambor'."
+  },
+  {
+    "id": "q09",
+    "tipo": "en_corpus",
+    "user_input": "¿Cómo restauro la impresora a valores de fábrica?",
+    "retrieved_contexts": [
+      "E01: tapa abierta. Cierre todas las tapas.\nE02: sin papel en la bandeja de entrada.\nE04: atasco de papel. Consulte la sección 5.2.\nE07: tóner no reconocido. Reinstale el cartucho y verifique que sea el modelo TX-200.\nE12: error del fusor. Apague la impresora durante 15 minutos y vuelva a encenderla; si el error persiste, contacte a servicio técnico.\nE21: error de memoria. Apague y encienda el equipo.",
+      "Retire todas las cintas de embalaje del equipo. Instale el cartucho de tóner TX-200 y cargue papel en la bandeja de entrada.\nConecte el cable de alimentación a una toma con corriente y pulse el botón de encendido del panel frontal.\nEspere 45 segundos mientras la impresora se calienta antes de imprimir la primera página.",
+      "Verifique que el cable de alimentación esté bien conectado a una toma con corriente. Si continúa sin encender, revise el fusible interno F1 (3.15 A), accesible bajo la tapa de servicio en la parte posterior. Si persiste, contacte a soporte técnico.",
+      "Velocidad de impresión: 28 páginas por minuto (ppm) en negro, tamaño A4.\nResolución máxima: 1200 x 1200 dpi. Memoria: 256 MB.\nBandeja de entrada: 250 hojas. Bandeja manual: 1 hoja.\nAlimentación eléctrica: 110-127 V, 60 Hz.\nConectividad: USB 2.0, Ethernet 10/100 y WiFi 802.11 b/g/n. El WiFi funciona únicamente en la banda de 2.4 GHz; las redes de 5 GHz no son compatibles.\nConsumibles: cartucho de tóner modelo TX-200 con rendimiento de 3000 páginas y tambor modelo DR-200 con rendimiento de 12000 páginas."
+    ],
+    "retrieved_sources": [
+      "manual_impresora_x200.txt#013",
+      "manual_impresora_x200.txt#002",
+      "manual_impresora_x200.txt#008",
+      "manual_impresora_x200.txt#001"
+    ],
+    "response": "La información no está disponible en los manuales.",
+    "reference": "Ir a Menú > Sistema > Restaurar valores, o mantener presionados Cancelar y OK durante 10 segundos al encender. Esto borra la configuración de red."
+  },
+  {
+    "id": "q10",
+    "tipo": "en_corpus",
+    "user_input": "¿Qué debo hacer ante el error E12 de la impresora?",
+    "retrieved_contexts": [
+      "E01: tapa abierta. Cierre todas las tapas.\nE02: sin papel en la bandeja de entrada.\nE04: atasco de papel. Consulte la sección 5.2.\nE07: tóner no reconocido. Reinstale el cartucho y verifique que sea el modelo TX-200.\nE12: error del fusor. Apague la impresora durante 15 minutos y vuelva a encenderla; si el error persiste, contacte a servicio técnico.\nE21: error de memoria. Apague y encienda el equipo.",
+      "Verifique que el cable de alimentación esté bien conectado a una toma con corriente. Si continúa sin encender, revise el fusible interno F1 (3.15 A), accesible bajo la tapa de servicio en la parte posterior. Si persiste, contacte a soporte técnico.",
+      "Retire todas las cintas de embalaje del equipo. Instale el cartucho de tóner TX-200 y cargue papel en la bandeja de entrada.\nConecte el cable de alimentación a una toma con corriente y pulse el botón de encendido del panel frontal.\nEspere 45 segundos mientras la impresora se calienta antes de imprimir la primera página.",
+      "Velocidad de impresión: 28 páginas por minuto (ppm) en negro, tamaño A4.\nResolución máxima: 1200 x 1200 dpi. Memoria: 256 MB.\nBandeja de entrada: 250 hojas. Bandeja manual: 1 hoja.\nAlimentación eléctrica: 110-127 V, 60 Hz.\nConectividad: USB 2.0, Ethernet 10/100 y WiFi 802.11 b/g/n. El WiFi funciona únicamente en la banda de 2.4 GHz; las redes de 5 GHz no son compatibles.\nConsumibles: cartucho de tóner modelo TX-200 con rendimiento de 3000 páginas y tambor modelo DR-200 con rendimiento de 12000 páginas."
+    ],
+    "retrieved_sources": [
+      "manual_impresora_x200.txt#013",
+      "manual_impresora_x200.txt#008",
+      "manual_impresora_x200.txt#002",
+      "manual_impresora_x200.txt#001"
+    ],
+    "response": "El error E12 indica un problema del fusor. Apague la impresora, espere 15 minutos y vuelva a encenderla; si el error continúa, contacte al servicio técnico. 1. Apagar la impresora 2. Esperar 15 minutos 3. Encender la impresora nuevamente 4. Si el error persiste, contactar al servicio técnico",
+    "reference": "El E12 es un error del fusor: apagar la impresora 15 minutos y volver a encenderla; si persiste, contactar a servicio técnico."
+  },
+  {
+    "id": "q11",
+    "tipo": "en_corpus",
+    "user_input": "¿Cuál es la IP de administración del router y sus credenciales por defecto?",
+    "retrieved_contexts": [
+      "Reinicie primero el módem y, cuando esté estable, el router. Verifique que el cable WAN esté firmemente conectado al puerto WAN.",
+      "Conecte un computador al router por cable o WiFi, abra un navegador e ingrese a 192.168.1.1. Inicie sesión con las credenciales por defecto y siga el asistente para cambiar la contraseña de administración.",
+      "Doble banda: 2.4 GHz y 5 GHz (WiFi 6). Puertos: 4 LAN Gigabit y 1 WAN.\nDirección IP de administración: 192.168.1.1.\nCredenciales por defecto: usuario \"admin\"; la contraseña está impresa en la etiqueta inferior del equipo.",
+      "Confirme que la red sea de 2.4 GHz y que el computador esté conectado a la misma red que la impresora. Imprima el informe de red para verificar la dirección IP y reinicie la impresora y el router."
+    ],
+    "retrieved_sources": [
+      "manual_router_nd1800.txt#007",
+      "manual_router_nd1800.txt#002",
+      "manual_router_nd1800.txt#001",
+      "manual_impresora_x200.txt#012"
+    ],
+    "response": "La IP de administración del router es 192.168.1.1. Las credenciales por defecto son usuario \"admin\" y la contraseña que se encuentra impresa en la etiqueta inferior del equipo.",
+    "reference": "La IP es 192.168.1.1, el usuario es admin y la contraseña está impresa en la etiqueta inferior del equipo."
+  },
+  {
+    "id": "q12",
+    "tipo": "en_corpus",
+    "user_input": "¿Cómo restablezco el router a valores de fábrica?",
+    "retrieved_contexts": [
+      "Con el equipo encendido, mantenga presionado el botón reset durante 10 segundos hasta que el LED Power parpadee. El router se reinicia y restaura el nombre de red y la clave WiFi que figuran en la etiqueta inferior.",
+      "Reinicie primero el módem y, cuando esté estable, el router. Verifique que el cable WAN esté firmemente conectado al puerto WAN.",
+      "Ingrese a Admin > Sistema > Actualización y cargue el archivo descargado del sitio del fabricante. No apague el router durante los 5 minutos que dura el proceso.",
+      "Conecte un computador al router por cable o WiFi, abra un navegador e ingrese a 192.168.1.1. Inicie sesión con las credenciales por defecto y siga el asistente para cambiar la contraseña de administración."
+    ],
+    "retrieved_sources": [
+      "manual_router_nd1800.txt#003",
+      "manual_router_nd1800.txt#007",
+      "manual_router_nd1800.txt#006",
+      "manual_router_nd1800.txt#002"
+    ],
+    "response": "Para restablecer el router a valores de fábrica, mantenga presionado el botón reset durante 10 segundos con el equipo encendido hasta que el LED Power parpadee; el router se reiniciará y recuperará el SSID y la clave WiFi impresos en la etiqueta inferior. 1. Con el router encendido, presione y mantenga el botón reset 10 segundos 2. Espere a que el LED Power parpadee y el router se reinicie",
+    "reference": "Con el equipo encendido, mantener presionado el botón reset 10 segundos hasta que el LED Power parpadee."
+  },
+  {
+    "id": "q13",
+    "tipo": "en_corpus",
+    "user_input": "¿Qué significa que el LED de Internet del router esté en rojo?",
+    "retrieved_contexts": [
+      "Power verde fijo: funcionamiento normal.\nInternet rojo: sin conexión WAN, el router no recibe internet del módem.\nInternet verde: conexión a internet activa.\nWiFi apagado: la red inalámbrica está desactivada.",
+      "Reinicie primero el módem y, cuando esté estable, el router. Verifique que el cable WAN esté firmemente conectado al puerto WAN.",
+      "Mantenga presionado el botón WiFi del panel durante 3 segundos hasta que el LED azul parpadee. Antes de que transcurran 2 minutos, presione el botón WPS del router. Cuando el LED azul quede fijo, la impresora está conectada.",
+      "Con el equipo encendido, mantenga presionado el botón reset durante 10 segundos hasta que el LED Power parpadee. El router se reinicia y restaura el nombre de red y la clave WiFi que figuran en la etiqueta inferior."
+    ],
+    "retrieved_sources": [
+      "manual_router_nd1800.txt#005",
+      "manual_router_nd1800.txt#007",
+      "manual_impresora_x200.txt#003",
+      "manual_router_nd1800.txt#003"
+    ],
+    "response": "El LED de Internet en rojo indica que no hay conexión WAN; el router no está recibiendo internet del módem.",
+    "reference": "Significa que no hay conexión WAN: el router no recibe internet del módem."
+  },
+  {
+    "id": "q14",
+    "tipo": "en_corpus",
+    "user_input": "¿Qué canales WiFi se recomiendan para reducir la interferencia en 2.4 GHz?",
+    "retrieved_contexts": [
+      "En la banda de 2.4 GHz cambie el canal a uno de los menos congestionados; se recomiendan los canales 1, 6 y 11 para evitar interferencia entre redes vecinas.",
+      "Doble banda: 2.4 GHz y 5 GHz (WiFi 6). Puertos: 4 LAN Gigabit y 1 WAN.\nDirección IP de administración: 192.168.1.1.\nCredenciales por defecto: usuario \"admin\"; la contraseña está impresa en la etiqueta inferior del equipo.",
+      "Confirme que la red sea de 2.4 GHz y que el computador esté conectado a la misma red que la impresora. Imprima el informe de red para verificar la dirección IP y reinicie la impresora y el router.",
+      "Vaya a Menú > Red > WiFi > Asistente de configuración. Seleccione el nombre de la red (SSID), ingrese la contraseña con el teclado numérico del panel y confirme con OK. Recuerde que solo se admiten redes de 2.4 GHz."
+    ],
+    "retrieved_sources": [
+      "manual_router_nd1800.txt#008",
+      "manual_router_nd1800.txt#001",
+      "manual_impresora_x200.txt#012",
+      "manual_impresora_x200.txt#004"
+    ],
+    "response": "Se recomiendan los canales 1, 6 y 11 en la banda de 2.4 GHz para minimizar la interferencia con redes vecinas. 1. Acceda a la configuración Wi‑Fi del router 2. Seleccione la banda de 2.4 GHz 3. Cambie el canal a 1, 6 o 11",
+    "reference": "Se recomiendan los canales 1, 6 y 11."
+  },
+  {
+    "id": "q15",
+    "tipo": "fuera_de_corpus",
+    "user_input": "¿Cuánto cuesta un cartucho de tóner TX-200?",
+    "retrieved_contexts": [
+      "Retire todas las cintas de embalaje del equipo. Instale el cartucho de tóner TX-200 y cargue papel en la bandeja de entrada.\nConecte el cable de alimentación a una toma con corriente y pulse el botón de encendido del panel frontal.\nEspere 45 segundos mientras la impresora se calienta antes de imprimir la primera página.",
+      "Retire el cartucho y agítelo suavemente para redistribuir el tóner. Verifique que el modo Ahorro de tóner esté desactivado en Menú > Calidad. Si el problema continúa, reemplace el cartucho TX-200.",
+      "Velocidad de impresión: 28 páginas por minuto (ppm) en negro, tamaño A4.\nResolución máxima: 1200 x 1200 dpi. Memoria: 256 MB.\nBandeja de entrada: 250 hojas. Bandeja manual: 1 hoja.\nAlimentación eléctrica: 110-127 V, 60 Hz.\nConectividad: USB 2.0, Ethernet 10/100 y WiFi 802.11 b/g/n. El WiFi funciona únicamente en la banda de 2.4 GHz; las redes de 5 GHz no son compatibles.\nConsumibles: cartucho de tóner modelo TX-200 con rendimiento de 3000 páginas y tambor modelo DR-200 con rendimiento de 12000 páginas.",
+      "Imprima la página de limpieza desde Menú > Mantenimiento > Limpiar tambor. Si las rayas continúan, limpie el rodillo de transferencia con un paño seco; si aún persisten, reemplace el tambor DR-200."
+    ],
+    "retrieved_sources": [
+      "manual_impresora_x200.txt#002",
+      "manual_impresora_x200.txt#011",
+      "manual_impresora_x200.txt#001",
+      "manual_impresora_x200.txt#010"
+    ],
+    "response": "La información no está disponible en los manuales.",
+    "reference": "La información no está disponible en los manuales."
+  }
+]

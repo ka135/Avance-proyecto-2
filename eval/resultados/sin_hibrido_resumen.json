@@ -1,0 +1,31 @@
+{
+  "tag": "sin_hibrido",
+  "config": {
+    "chunk_size": 800,
+    "overlap": 120,
+    "top_k": 4,
+    "hybrid": false,
+    "embedding": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "llm": "groq:openai/gpt-oss-120b"
+  },
+  "global": {
+    "faithfulness": 0.706,
+    "answer_relevancy": 0.771,
+    "context_precision": 0.856,
+    "context_recall": 0.833
+  },
+  "por_tipo": {
+    "en_corpus": {
+      "faithfulness": 0.757,
+      "answer_relevancy": 0.817,
+      "context_precision": 0.845,
+      "context_recall": 0.893
+    },
+    "fuera_de_corpus": {
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.118,
+      "context_precision": 1.0,
+      "context_recall": 0.0
+    }
+  }
+}

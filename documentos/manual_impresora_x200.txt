@@ -1,0 +1,55 @@
+# Manual de usuario - Impresora láser multifunción X200
+
+## 1. Especificaciones técnicas
+Velocidad de impresión: 28 páginas por minuto (ppm) en negro, tamaño A4.
+Resolución máxima: 1200 x 1200 dpi. Memoria: 256 MB.
+Bandeja de entrada: 250 hojas. Bandeja manual: 1 hoja.
+Alimentación eléctrica: 110-127 V, 60 Hz.
+Conectividad: USB 2.0, Ethernet 10/100 y WiFi 802.11 b/g/n. El WiFi funciona únicamente en la banda de 2.4 GHz; las redes de 5 GHz no son compatibles.
+Consumibles: cartucho de tóner modelo TX-200 con rendimiento de 3000 páginas y tambor modelo DR-200 con rendimiento de 12000 páginas.
+
+## 2. Instalación y primer encendido
+Retire todas las cintas de embalaje del equipo. Instale el cartucho de tóner TX-200 y cargue papel en la bandeja de entrada.
+Conecte el cable de alimentación a una toma con corriente y pulse el botón de encendido del panel frontal.
+Espere 45 segundos mientras la impresora se calienta antes de imprimir la primera página.
+
+## 3. Conexión a una red WiFi
+### 3.1 Método WPS
+Mantenga presionado el botón WiFi del panel durante 3 segundos hasta que el LED azul parpadee. Antes de que transcurran 2 minutos, presione el botón WPS del router. Cuando el LED azul quede fijo, la impresora está conectada.
+### 3.2 Método manual desde el panel
+Vaya a Menú > Red > WiFi > Asistente de configuración. Seleccione el nombre de la red (SSID), ingrese la contraseña con el teclado numérico del panel y confirme con OK. Recuerde que solo se admiten redes de 2.4 GHz.
+### 3.3 Informe de red
+Para imprimir el informe de configuración de red, mantenga presionado el botón Cancelar durante 5 segundos.
+
+## 4. Reemplazo de consumibles
+### 4.1 Cartucho de tóner
+Abra la tapa frontal y extraiga el cartucho usado. Agite el cartucho nuevo 5 o 6 veces, retire el sello protector e insértelo hasta escuchar un clic. Cierre la tapa; el contador se reinicia automáticamente.
+### 4.2 Tambor de imagen
+El tambor DR-200 debe reemplazarse cada 12000 páginas, cuando aparezca el mensaje "Cambiar tambor". No exponga el tambor a la luz directa más de 2 minutos.
+
+## 5. Solución de problemas
+### 5.1 La impresora no enciende
+Verifique que el cable de alimentación esté bien conectado a una toma con corriente. Si continúa sin encender, revise el fusible interno F1 (3.15 A), accesible bajo la tapa de servicio en la parte posterior. Si persiste, contacte a soporte técnico.
+### 5.2 Atasco de papel
+Un atasco se indica con el LED rojo parpadeante y el código E04. Abra la tapa trasera y jale el papel lentamente en la dirección de salida. No use objetos metálicos. El fusor puede estar caliente: espere 10 minutos antes de manipularlo.
+### 5.3 Impresiones con rayas o manchas
+Imprima la página de limpieza desde Menú > Mantenimiento > Limpiar tambor. Si las rayas continúan, limpie el rodillo de transferencia con un paño seco; si aún persisten, reemplace el tambor DR-200.
+### 5.4 Impresión débil o borrosa
+Retire el cartucho y agítelo suavemente para redistribuir el tóner. Verifique que el modo Ahorro de tóner esté desactivado en Menú > Calidad. Si el problema continúa, reemplace el cartucho TX-200.
+### 5.5 No imprime por WiFi
+Confirme que la red sea de 2.4 GHz y que el computador esté conectado a la misma red que la impresora. Imprima el informe de red para verificar la dirección IP y reinicie la impresora y el router.
+
+## 6. Códigos de error
+E01: tapa abierta. Cierre todas las tapas.
+E02: sin papel en la bandeja de entrada.
+E04: atasco de papel. Consulte la sección 5.2.
+E07: tóner no reconocido. Reinstale el cartucho y verifique que sea el modelo TX-200.
+E12: error del fusor. Apague la impresora durante 15 minutos y vuelva a encenderla; si el error persiste, contacte a servicio técnico.
+E21: error de memoria. Apague y encienda el equipo.
+
+## 7. Mantenimiento y garantía
+Limpie el exterior con un paño seco y suave. Cada 6 meses limpie el rodillo de recogida con un paño humedecido con alcohol isopropílico.
+La garantía del equipo es de 12 meses desde la fecha de compra. El soporte técnico atiende de lunes a viernes de 8:00 a 18:00.
+
+## 8. Restablecimiento de fábrica
+Vaya a Menú > Sistema > Restaurar valores. También puede mantener presionados los botones Cancelar y OK durante 10 segundos al encender el equipo. Esta acción borra la configuración de red.

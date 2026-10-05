@@ -1,0 +1,25 @@
+{
+  "tag": "prueba",
+  "config": {
+    "chunk_size": 800,
+    "overlap": 120,
+    "top_k": 4,
+    "hybrid": true,
+    "embedding": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "llm": "groq:openai/gpt-oss-120b"
+  },
+  "global": {
+    "faithfulness": 0.619,
+    "answer_relevancy": 0.864,
+    "context_precision": 1.0,
+    "context_recall": 1.0
+  },
+  "por_tipo": {
+    "en_corpus": {
+      "faithfulness": 0.619,
+      "answer_relevancy": 0.864,
+      "context_precision": 1.0,
+      "context_recall": 1.0
+    }
+  }
+}

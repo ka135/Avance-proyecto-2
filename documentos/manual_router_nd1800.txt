@@ -1,0 +1,30 @@
+# Manual de usuario - Router WiFi 6 ND-1800
+
+## 1. Especificaciones
+Doble banda: 2.4 GHz y 5 GHz (WiFi 6). Puertos: 4 LAN Gigabit y 1 WAN.
+Dirección IP de administración: 192.168.1.1.
+Credenciales por defecto: usuario "admin"; la contraseña está impresa en la etiqueta inferior del equipo.
+
+## 2. Primer acceso a la configuración
+Conecte un computador al router por cable o WiFi, abra un navegador e ingrese a 192.168.1.1. Inicie sesión con las credenciales por defecto y siga el asistente para cambiar la contraseña de administración.
+
+## 3. Restablecimiento a valores de fábrica
+Con el equipo encendido, mantenga presionado el botón reset durante 10 segundos hasta que el LED Power parpadee. El router se reinicia y restaura el nombre de red y la clave WiFi que figuran en la etiqueta inferior.
+
+## 4. Cambio de la contraseña WiFi
+Ingrese a Admin > Inalámbrico > Seguridad. Seleccione WPA2/WPA3 mixto y escriba una nueva clave de mínimo 8 caracteres. Guarde los cambios; los dispositivos conectados deberán volver a autenticarse.
+
+## 5. Significado de los LED
+Power verde fijo: funcionamiento normal.
+Internet rojo: sin conexión WAN, el router no recibe internet del módem.
+Internet verde: conexión a internet activa.
+WiFi apagado: la red inalámbrica está desactivada.
+
+## 6. Actualización de firmware
+Ingrese a Admin > Sistema > Actualización y cargue el archivo descargado del sitio del fabricante. No apague el router durante los 5 minutos que dura el proceso.
+
+## 7. Solución de problemas
+### 7.1 Sin conexión a internet
+Reinicie primero el módem y, cuando esté estable, el router. Verifique que el cable WAN esté firmemente conectado al puerto WAN.
+### 7.2 WiFi lento o inestable
+En la banda de 2.4 GHz cambie el canal a uno de los menos congestionados; se recomiendan los canales 1, 6 y 11 para evitar interferencia entre redes vecinas.
