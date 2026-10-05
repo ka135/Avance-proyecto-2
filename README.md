@@ -4,10 +4,10 @@ Karolina Suarez (506231095) · Valentina Tangarife (506241718)
 
 Asistente que responde preguntas sobre manuales técnicos (impresora X200 y router ND-1800) con **RAG de extremo a extremo**, evaluación con **Ragas** y una interfaz de **chat conversacional** en Streamlit.
 
-- 🌐 **URL pública de la aplicación:** `PEGAR_AQUI_LA_URL_DESPLEGADA`
-- 📦 **Repositorio:** https://github.com/ka135/-Avance-proyecto.git
+- 🌐 **URL pública de la aplicación:** https://avance-proyecto-2-hqputjjorbunhafsspn7o4.streamlit.app/
+- 📦 **Repositorio:** https://github.com/ka135/Avance-proyecto-2.git
 
-> **Privacidad:** el corpus, los embeddings y el índice vectorial se procesan y almacenan **localmente**. El LLM (Gemini) solo recibe la pregunta, el historial reciente y los `top_k` fragmentos recuperados; nunca el corpus completo.
+> **Privacidad:** el corpus, los embeddings y el índice vectorial se procesan y almacenan **localmente**. El LLM solo recibe la pregunta, el historial reciente y los `top_k` fragmentos recuperados; nunca el corpus completo.
 
 ## 1. Flujo RAG implementado
 
@@ -52,7 +52,7 @@ docs/diagrama_flujo_rag.png
 > **Python 3.11 o 3.12** (recomendado 3.12). Con 3.13/3.14 la evaluación no se instala porque `scikit-network` (dependencia de Ragas) no tiene paquetes precompilados. El chat (`requirements.txt`) sí funciona en versiones recientes.
 
 ```bash
-git clone https://github.com/ka135/-Avance-proyecto.git && cd -Avance-proyecto
+git clone https://github.com/ka135/Avance-proyecto-2.git && cd Avance-proyecto-2
 python -m venv .venv && source .venv/bin/activate      # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 cp .env.example .env                                   # y edita GEMINI_API_KEY
@@ -98,3 +98,16 @@ Alternativa: Hugging Face Spaces (SDK Streamlit) con la clave en *Settings → S
 
 1. "¿Cómo conecto la impresora al WiFi?" → "¿Y si mi red es de 5 GHz?" → "¿Qué hago si aun así no imprime?" (seguimiento).
 2. "¿Cuántos años tengo?" o "¿Cómo configuro una VPN en el router?" (fuera de corpus: debe mostrar el aviso y `en_corpus = false`).
+
+## 8. Resultados de la evaluación (Ragas)
+
+Modelo generador y juez: `openai/gpt-oss-120b` (Groq). Embeddings locales. 15 preguntas de `eval/preguntas_eval.json` (14 dentro del corpus y 1 fuera), por los límites del plan gratuito. Iteración de mejora: recuperación solo por coseno → recuperación híbrida (0.7 coseno + 0.3 coincidencia de términos).
+
+| Métrica | Solo coseno | Híbrida | Δ |
+|---|---|---|---|
+| faithfulness | 0.706 | 0.713 | +0.007 |
+| answer_relevancy | 0.771 | 0.738 | -0.033 |
+| context_precision | 0.856 | 0.867 | +0.011 |
+| context_recall | 0.833 | 0.900 | +0.067 |
+
+Con solo 15 preguntas y un juez LLM, diferencias de ~0.03 no son concluyentes; la mejora más clara es `context_recall`. Detalle por pregunta en `eval/resultados/*_detalle.csv`.
