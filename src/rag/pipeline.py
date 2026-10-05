@@ -29,4 +29,9 @@ class RagAssistant:
         query = self.standalone_question(question, history)
         contexts = retrieve(query, self.cfg)
         answer = generate_answer(build_prompt(question, contexts, history))
+        # Si el modelo omitió fuente/confianza, se completan de forma coherente
+        if not answer.get("fuente"):
+            answer["fuente"] = contexts[0].source if (answer["en_corpus"] and contexts) else "ninguna"
+        if not answer.get("confianza"):
+            answer["confianza"] = "media" if answer["en_corpus"] else "baja"
         return {"answer": answer, "contexts": contexts, "standalone_question": query}
